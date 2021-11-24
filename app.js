@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://AmandhillonCS:xAngel123@cluster0.zlei8.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://AmandhillonCS:xAngel123@cluster0.zlei8.mongodb.net/cartifyDB", {useNewUrlParser: true});
 
 const itemsSchema = {
   name: String
@@ -22,15 +22,15 @@ const Item = mongoose.model("Item", itemsSchema);
 
 
 const item1 = new Item({
-  name: "Welcome to your todolist!"
+  name: "Mango"
 });
 
 const item2 = new Item({
-  name: "Hit the + button to add a new item."
+  name: "Apple"
 });
 
 const item3 = new Item({
-  name: "<-- Hit this to delete an item."
+  name: "Banana"
 });
 
 const defaultItems = [item1, item2, item3];
