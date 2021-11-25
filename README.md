@@ -12,9 +12,9 @@ A grocery list web application which you can change dynamically.
  MongoDB Atlas is a fully-managed cloud database that handles all the complexity of deploying, managing, and healing your deployments on the cloud service    provider of your choice (AWS , Azure, and GCP). MongoDB Atlas is the best way to deploy, run, and scale MongoDB in the cloud. You can learn more about MongoDB Atlas [Here](https://www.mongodb.com/basics/mongodb-atlas-tutorial#:~:text=MongoDB%20Atlas%20is%20a%20fully,scale%20MongoDB%20in%20the%20cloud.)
 ![DB](/images/DB.PNG)
 ## Features for users 
-* #### Add Items on the fly 
+* #### Add Items on the fly :watermelon: :cherries: :banana:
 ![Add](/images/additem.PNG)
- * #### Delete Items on the fly
+ * #### Delete Items on the fly :watermelon: :cherries: :banana:
 ![delete](/images/delete.PNG)
 * #### Make custom title for your own list
 ![title](/images/title.png)
